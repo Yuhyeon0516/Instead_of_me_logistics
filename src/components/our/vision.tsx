@@ -79,7 +79,10 @@ export default function Vision() {
             <Box h={"100%"} pr={"50px"}>
                 <Center w={"100%"} h={"100%"}>
                     <Box w={"100%"} h={"50%"}>
-                        <Image src={imagePath} objectFit={"cover"} />
+                        <Image
+                            src={require("../../assets/bernd-dittrich-mjhvx4CO6G8-unsplash.jpg")}
+                            objectFit={"cover"}
+                        />
                     </Box>
                 </Center>
             </Box>

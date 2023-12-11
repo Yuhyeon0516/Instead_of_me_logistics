@@ -9,7 +9,7 @@ export default function Vision() {
             <VStack w={"100%"} h={"100%"} spacing={0}>
                 <Box w={"100%"} h={"50%"}>
                     <Image
-                        src={imagePath}
+                        src={require("../../assets/Screenshot-2020-09-18-at-15.20.20.png")}
                         w={"100%"}
                         h={"100%"}
                         objectFit={"cover"}

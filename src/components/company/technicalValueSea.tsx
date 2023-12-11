@@ -45,7 +45,7 @@ export default function TechnicalValueSea() {
                 </Text>
 
                 <Image
-                    src={imagePath}
+                    src={require("../../assets/axel-hjEesK4KSDs-unsplash.jpg")}
                     w={"100%"}
                     h={"auto"}
                     objectFit={"cover"}
@@ -79,15 +79,14 @@ export default function TechnicalValueSea() {
                 </Text>
 
                 <CEO />
-
-                <Box
-                    backgroundColor={"gray.300"}
-                    w={"100%"}
-                    minH={"1px"}
-                    maxH={"1px"}
-                    mt={"80px"}
-                />
             </VStack>
+
+            <Box
+                backgroundColor={"gray.300"}
+                w={"100%"}
+                minH={"1px"}
+                maxH={"1px"}
+            />
         </Box>
     );
 }
