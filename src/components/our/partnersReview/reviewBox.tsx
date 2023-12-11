@@ -29,7 +29,7 @@ export default function ReviewBox({
                     <FaStar fontSize={"15px"} />
                 </HStack>
 
-                <Text>{reviewText}</Text>
+                <Text lineHeight={"1.2"}>{reviewText}</Text>
 
                 <HStack spacing={4}>
                     <Box
