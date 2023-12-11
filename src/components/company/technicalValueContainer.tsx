@@ -5,7 +5,7 @@ export default function TechnicalValueContainer() {
         "https://github.com/jh0152park/instead_of_me_sample/blob/main/logistics/images/frank-mckenna-tjX_sniNzgQ-unsplash.jpg?raw=true";
 
     return (
-        <Box w={"100dvw"} h={"100dvh"} backgroundColor={"white"}>
+        <Box w={"100dvw"} h={"100dvh"} mt={"50px"} backgroundColor={"white"}>
             <Grid templateColumns={"repeat(2,1fr)"}>
                 <Box w={"100%"} h={"80dvh"} px={"50px"}>
                     <Text
@@ -51,7 +51,7 @@ export default function TechnicalValueContainer() {
                         position={"relative"}
                     >
                         <Image
-                            src={imagePath}
+                            src={require("../../assets/frank-mckenna-tjX_sniNzgQ-unsplash.jpg")}
                             w={"100%"}
                             h={"100%"}
                             objectFit={"cover"}

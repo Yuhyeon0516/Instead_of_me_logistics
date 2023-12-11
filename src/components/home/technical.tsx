@@ -30,7 +30,10 @@ export default function Technical() {
                 left={0}
                 zIndex={1}
             >
-                <Image src={imagePath} objectFit={"cover"} />
+                <Image
+                    src={require("../../assets/axel-hjEesK4KSDs-unsplash.jpg")}
+                    objectFit={"cover"}
+                />
             </Box>
 
             <Box zIndex={2} position={"relative"} pl={"80px"} pt={"70px"}>

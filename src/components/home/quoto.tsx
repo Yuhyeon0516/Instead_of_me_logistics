@@ -21,7 +21,7 @@ export default function Quoto() {
                 zIndex={-1}
             >
                 <Image
-                    src={imagePath}
+                    src={require("../../assets/quoto.png")}
                     w={"100%"}
                     h={"100%"}
                     objectFit={"cover"}
