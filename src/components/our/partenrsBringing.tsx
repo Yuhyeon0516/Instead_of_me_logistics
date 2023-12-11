@@ -22,7 +22,7 @@ export default function PartenrsBringing() {
                         fontWeight={"extrabold"}
                         mb={"25px"}
                     >
-                        모두를 통합하였습니다.
+                        우리의 파트너, 모두가 하나 되었습니다.
                     </Text>
 
                     <Grid
