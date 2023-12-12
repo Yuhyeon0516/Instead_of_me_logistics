@@ -15,27 +15,30 @@ import { useEffect } from "react";
 import { useSetRecoilState } from "recoil";
 import { DisplayResolution } from "./global/recoil";
 
-// const router = createBrowserRouter([
-//     {
-//         path: "/",
-//         element: <Layout />,
-//         errorElement: <NotFound />,
-//         children: [
-//             {
-//                 path: "",
-//                 element: <Home />,
-//             },
-//             {
-//                 path: "our",
-//                 element: <Our />,
-//             },
-//             {
-//                 path: "company",
-//                 element: <Company />,
-//             },
-//         ],
-//     },
-// ]);
+const router = createBrowserRouter(
+    [
+        {
+            path: "/",
+            element: <Layout />,
+            errorElement: <NotFound />,
+            children: [
+                {
+                    path: "",
+                    element: <Home />,
+                },
+                {
+                    path: "our",
+                    element: <Our />,
+                },
+                {
+                    path: "company",
+                    element: <Company />,
+                },
+            ],
+        },
+    ],
+    { basename: "/Instead_of_me_logistics" }
+);
 
 function App() {
     const setDisplayResolution = useSetRecoilState(DisplayResolution);
@@ -49,18 +52,9 @@ function App() {
     }, [setDisplayResolution]);
 
     return (
-        // <>
-        //     <RouterProvider router={router} />
-        // </>
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<Layout />}>
-                    <Route index element={<Home />} />
-                    <Route path="our" element={<Our />} />
-                    <Route path="company" element={<Company />} />
-                </Route>
-            </Routes>
-        </BrowserRouter>
+        <>
+            <RouterProvider router={router} />
+        </>
     );
 }
 
