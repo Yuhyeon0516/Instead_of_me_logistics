@@ -32,6 +32,7 @@ export default function TechnicalMobile() {
                     objectFit={"cover"}
                     w={"100%"}
                     h={"100%"}
+                    opacity={0.7}
                 />
             </Box>
 

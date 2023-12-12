@@ -24,6 +24,7 @@ export default function QuotoMobile() {
                     w={"100%"}
                     h={"100%"}
                     objectFit={"cover"}
+                    opacity={0.8}
                 />
             </Box>
 
