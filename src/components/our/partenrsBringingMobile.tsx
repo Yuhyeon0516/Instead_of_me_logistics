@@ -7,7 +7,7 @@ export default function PartenrsBringingMobile() {
             w={"100%"}
             px={"30px"}
             pt={"50px"}
-            pb={"50px"}
+            pb={"100px"}
             bgColor={"white"}
             color={"black"}
         >

@@ -11,7 +11,7 @@ export default function ReviewBox({
     sector: string;
 }) {
     return (
-        <Center w={"100%"} h={"100%"} color={"black"}>
+        <Center w={"100%"} maxH={"400px"} color={"black"}>
             <VStack
                 w={"90%"}
                 h={"100%"}
