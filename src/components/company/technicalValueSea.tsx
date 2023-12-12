@@ -2,9 +2,6 @@ import { Box, Image, Text, VStack } from "@chakra-ui/react";
 import CEO from "./technicalValue/ceo";
 
 export default function TechnicalValueSea() {
-    const imagePath =
-        "https://github.com/jh0152park/instead_of_me_sample/blob/main/logistics/images/axel-hjEesK4KSDs-unsplash.jpg?raw=true";
-
     return (
         <Box w={"100dvw"} h={"200dvh"} position={"relative"}>
             <Box

@@ -16,11 +16,7 @@ export default function CEO() {
                 <Text fontSize={"24px"} fontWeight={"semibold"}>
                     Hong GilDong
                 </Text>
-                <Text
-                    fontSize={"16px"}
-                    fontWeight={"medium"}
-                    color={"gray.300"}
-                >
+                <Text fontSize={"16px"} fontWeight={"medium"} color={"black"}>
                     CEO at INSTEADOFME
                 </Text>
             </VStack>

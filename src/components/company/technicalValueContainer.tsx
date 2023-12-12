@@ -1,9 +1,6 @@
 import { Box, Grid, Image, Text, VStack } from "@chakra-ui/react";
 
 export default function TechnicalValueContainer() {
-    const imagePath =
-        "https://github.com/jh0152park/instead_of_me_sample/blob/main/logistics/images/frank-mckenna-tjX_sniNzgQ-unsplash.jpg?raw=true";
-
     return (
         <Box w={"100dvw"} h={"100dvh"} mt={"50px"} backgroundColor={"white"}>
             <Grid templateColumns={"repeat(2,1fr)"}>

@@ -3,8 +3,6 @@ import YelloButton from "../common/yelloButton";
 import { useNavigate } from "react-router-dom";
 
 export default function Technical() {
-    const imagePath =
-        "https://github.com/jh0152park/instead_of_me_sample/blob/main/logistics/images/axel-hjEesK4KSDs-unsplash.jpg?raw=true";
     const navigate = useNavigate();
 
     function onClick() {

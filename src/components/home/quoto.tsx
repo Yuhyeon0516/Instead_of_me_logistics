@@ -2,9 +2,6 @@ import { Box, HStack, Image, Text, VStack } from "@chakra-ui/react";
 import YelloButton from "../common/yelloButton";
 
 export default function Quoto() {
-    const imagePath =
-        "https://github.com/jh0152park/instead_of_me_sample/blob/yuhyeon/logistics/images/quoto.png?raw=true";
-
     return (
         <Box
             position={"relative"}

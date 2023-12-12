@@ -10,9 +10,6 @@ import {
 import VisionTextBox from "./vision/visionTextBox";
 
 export default function Vision() {
-    const imagePath =
-        "https://github.com/jh0152park/instead_of_me_sample/blob/main/logistics/images/bernd-dittrich-mjhvx4CO6G8-unsplash.jpg?raw=true";
-
     return (
         <Grid
             w={"100dvw"}
@@ -36,7 +33,7 @@ export default function Vision() {
                             혁신적이고
                             <br /> 상호 운용 가능한 플랫폼
                         </Text>
-                        <Text color={"gray.500"}>
+                        <Text color={"gray.500"} lineHeight={"2"}>
                             우리의 물류 플랫폼은 혁신적인 기술과 상호 운용
                             가능성을 통해 물류 업계를 변화시킵니다.
                             <br />
