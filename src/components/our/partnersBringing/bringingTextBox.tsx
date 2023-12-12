@@ -5,7 +5,7 @@ export default function BringingTextBox({ name }: { name: string }) {
         <Box
             backgroundColor={"whitesmoke"}
             w={"100%"}
-            h={"100%"}
+            maxH={"100px"}
             py={"20px"}
             px={"40px"}
             borderRadius={"15px"}
