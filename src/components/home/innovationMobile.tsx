@@ -18,7 +18,9 @@ export default function InnovationMobile() {
                         textAlign={"center"}
                         fontWeight={"extrabold"}
                     >
-                        물류 혁신을 위한 새로운 출발
+                        물류 혁신을 위한
+                        <br />
+                        새로운 출발
                     </Text>
 
                     <Box
