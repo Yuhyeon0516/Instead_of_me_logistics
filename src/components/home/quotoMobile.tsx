@@ -29,9 +29,13 @@ export default function QuotoMobile() {
 
             <VStack textAlign={"start"} spacing={5} alignItems={"flex-start"}>
                 <Text fontSize={"36px"} fontWeight={"bold"}>
-                    우리는 효율적인 물류 솔루션을
+                    우리는 효율적인
                     <br />
-                    제공하는 업계의 선도 기업입니다.
+                    물류 솔루션을
+                    <br />
+                    제공하는 업계의
+                    <br />
+                    선도 기업입니다.
                 </Text>
                 <VStack
                     fontSize={"14px"}
