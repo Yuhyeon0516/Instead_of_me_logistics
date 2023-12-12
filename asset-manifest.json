@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/Instead_of_me_logistics/static/js/main.5b59bb40.js",
+    "main.js": "/Instead_of_me_logistics/static/js/main.b5c11bd7.js",
     "static/media/quoto.png": "/Instead_of_me_logistics/static/media/quoto.d27e39ec3c913d5848b5.png",
     "static/media/axel-hjEesK4KSDs-unsplash.jpg": "/Instead_of_me_logistics/static/media/axel-hjEesK4KSDs-unsplash.72513ca7f4150efedbe5.jpg",
     "static/media/bernd-dittrich-mjhvx4CO6G8-unsplash.jpg": "/Instead_of_me_logistics/static/media/bernd-dittrich-mjhvx4CO6G8-unsplash.81c235ddbf5d144d4d24.jpg",
     "static/media/frank-mckenna-tjX_sniNzgQ-unsplash.jpg": "/Instead_of_me_logistics/static/media/frank-mckenna-tjX_sniNzgQ-unsplash.21530d8fba653b00e14f.jpg",
     "static/media/Screenshot-2020-09-18-at-15.20.20.png": "/Instead_of_me_logistics/static/media/Screenshot-2020-09-18-at-15.20.20.586cbddcb26ab9c01a23.png",
     "index.html": "/Instead_of_me_logistics/index.html",
-    "main.5b59bb40.js.map": "/Instead_of_me_logistics/static/js/main.5b59bb40.js.map"
+    "main.b5c11bd7.js.map": "/Instead_of_me_logistics/static/js/main.b5c11bd7.js.map"
   },
   "entrypoints": [
-    "static/js/main.5b59bb40.js"
+    "static/js/main.b5c11bd7.js"
   ]
 }
