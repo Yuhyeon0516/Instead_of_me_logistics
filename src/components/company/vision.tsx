@@ -2,8 +2,6 @@ import { Box, Grid, HStack, Image, Text, VStack } from "@chakra-ui/react";
 import PdfBox from "./vision/pdfBox";
 
 export default function Vision() {
-    const imagePath =
-        "https://github.com/jh0152park/instead_of_me_sample/blob/yuhyeon/logistics/images/Screenshot-2020-09-18-at-15.20.20.png?raw=true";
     return (
         <Box w={"100dvw"} h={"100dvh"}>
             <VStack w={"100%"} h={"100%"} spacing={0}>

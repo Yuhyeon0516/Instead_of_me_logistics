@@ -19,7 +19,7 @@ export default function BringingTextBox({ name }: { name: string }) {
                 />
 
                 <Text
-                    color={"blackAlpha.300"}
+                    color={"blackAlpha.600"}
                     fontSize={"18px"}
                     fontWeight={"bold"}
                 >

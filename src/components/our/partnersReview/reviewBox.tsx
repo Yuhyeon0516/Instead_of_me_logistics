@@ -45,7 +45,7 @@ export default function ReviewBox({
                         <Text
                             fontSize={"12px"}
                             fontWeight={"semibold"}
-                            color={"gray.300"}
+                            color={"black"}
                         >
                             {sector}
                         </Text>
